@@ -52,6 +52,6 @@ for i in range(r):
             if s > w and w != 0:
                 wolf_r -= w
             else:
-                if s!=0:
+                if w!=0:
                     sheep_r -= s
 print(sheep_r, wolf_r)
